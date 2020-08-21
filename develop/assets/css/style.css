@@ -57,11 +57,14 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    border-radius: 5%;
+    border: solid black;
 }
 
 .float-left {
     float: left;
     margin-right: 25px;
+    /*height: 90%; */
 }
 
 .float-right {
@@ -80,10 +83,18 @@ p {
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
-    height: 100%;
+    /* changed the width from 20 to 22 percent */
+    position: relative;
+    width: 22%;
+    bottom: 15px;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+
+    border: solid black;
+    border-radius: 5%;
+
+
 }
 
 /*put benefit class together */
@@ -110,6 +121,14 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    /*put postion to line up the picture and the other three groups(optimization, management, and marketing) */
+    position: relative;
+    right: 20px;
+
+    /*added borders */
+    border: solid black;
+
+
 }
 
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
